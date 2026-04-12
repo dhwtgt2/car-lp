@@ -23,6 +23,18 @@ text-decoration:none;
 .line{background:#06c755;color:#fff;}
 .box{background:#1a1a1a;padding:20px;border-radius:10px;margin-bottom:20px;}
 .red{color:#ff4d4d;font-weight:bold;text-align:center;}
+
+.btn-img img{
+  width:100%;
+  max-width:280px;
+  display:block;
+  border-radius:12px;
+  transition: all 0.2s ease;
+}
+
+.btn-img img:active{
+  transform: scale(0.95);
+}
 </style>
 </head>
 
@@ -33,10 +45,23 @@ text-decoration:none;
 <h1>ローン中の車でも買取可能</h1>
 <p class="sub">最短即日で現金化</p>
 
-<p class="red">本日あと3枠限定</p>
+<p style="text-align:center; font-weight:bold; margin-top:20px;">
+今なら即日査定可能です👇
+</p>
 
-<a href="https://line.me/ti/p/@210qrrpt" class="btn cta">今すぐ無料査定する</a>
-<a href="https://line.me/ti/p/@210qrrpt" class="btn line">LINEで査定する</a>
+<div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:20px;">
+
+  <!-- 無料査定 -->
+  <a href="https://line.me/ti/p/@210qrrpt" class="btn-img">
+    <img src="https://raw.githubusercontent.com/dhwtgt2/car-lp/main/button-orange.png">
+  </a>
+
+  <!-- LINE相談 -->
+  <a href="https://line.me/ti/p/@210qrrpt" class="btn-img">
+    <img src="https://raw.githubusercontent.com/dhwtgt2/car-lp/main/button-black.png">
+  </a>
+
+</div>
 
 <div class="box">
 <h2>こんなお悩みありませんか？</h2>
